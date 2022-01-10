@@ -1,0 +1,21 @@
+[10-Jan-2022 18:53:16 UTC] PHP Warning:  unlink(C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\uploads/wpforms): No such file or directory in C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\functions.php on line 2238
+[10-Jan-2022 18:53:16 UTC] PHP Stack trace:
+[10-Jan-2022 18:53:16 UTC] PHP   1. {main}() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-admin\admin-ajax.php:0
+[10-Jan-2022 18:53:16 UTC] PHP   2. require_once() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-admin\admin-ajax.php:22
+[10-Jan-2022 18:53:16 UTC] PHP   3. require_once() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-load.php:50
+[10-Jan-2022 18:53:16 UTC] PHP   4. require_once() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-config.php:77
+[10-Jan-2022 18:53:16 UTC] PHP   5. do_action() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-settings.php:441
+[10-Jan-2022 18:53:16 UTC] PHP   6. WP_Hook->do_action() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\plugin.php:470
+[10-Jan-2022 18:53:16 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\class-wp-hook.php:327
+[10-Jan-2022 18:53:16 UTC] PHP   8. WPForms\WPForms->objects() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\class-wp-hook.php:303
+[10-Jan-2022 18:53:16 UTC] PHP   9. do_action() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:277
+[10-Jan-2022 18:53:16 UTC] PHP  10. WP_Hook->do_action() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\plugin.php:470
+[10-Jan-2022 18:53:16 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\class-wp-hook.php:327
+[10-Jan-2022 18:53:16 UTC] PHP  12. WPForms\WPForms->WPForms\{closure:C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:312-322}() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\class-wp-hook.php:303
+[10-Jan-2022 18:53:16 UTC] PHP  13. WPForms\Admin\Addons\Addons->init() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\WPForms.php:320
+[10-Jan-2022 18:53:16 UTC] PHP  14. WPForms\Admin\Addons\AddonsCache->get_cached() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\Admin\Addons\Addons.php:64
+[10-Jan-2022 18:53:16 UTC] PHP  15. WPForms\Admin\Addons\AddonsCache->get_cache_dir() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\Helpers\CacheBase.php:146
+[10-Jan-2022 18:53:16 UTC] PHP  16. wpforms_upload_dir() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\src\Helpers\CacheBase.php:127
+[10-Jan-2022 18:53:16 UTC] PHP  17. wp_is_writable() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-content\plugins\wpforms-lite\includes\functions.php:2707
+[10-Jan-2022 18:53:16 UTC] PHP  18. win_is_writable() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\functions.php:2197
+[10-Jan-2022 18:53:16 UTC] PHP  19. unlink() C:\Users\User\Local Sites\daily-fashion-life\app\public\wp-includes\functions.php:2238
